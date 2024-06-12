@@ -40,7 +40,7 @@ print("The answer is", 42)
 
 ## 4. Variants of Using `print()`
 
-The `print()` function has several optional parameters that allow you to customize its behavior.
+The `print()` function has several optional arguments that allow you to customize its behavior.
 
 - **Multiple Arguments**: You can print multiple items by separating them with commas.
 
@@ -62,12 +62,4 @@ print("Python", "is", "fun", sep="-")
 print("Hello, World!", end=" :) ")
 print("Python is amazing!")
 # Output: Hello, World! :) Python is amazing!
-</code></pre>
-
-- **File Output**: You can direct the output to a file using the `file` parameter.
-
-<pre><code>
-with open('output.txt', 'w') as f:
-    print("This will be written to the file.", file=f)
-# Output: (Written in output.txt) This will be written to the file.
 </code></pre>
