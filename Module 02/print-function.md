@@ -1,4 +1,4 @@
-# The `print()` Function
+# The `print()` function
 
 ## 1. What the `print()` Function Does
 
