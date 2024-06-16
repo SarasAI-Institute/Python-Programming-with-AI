@@ -77,11 +77,11 @@
 
 | Operator | Description                               | Example               | Result   | Explanation                                               |
 |----------|-------------------------------------------|-----------------------|----------|-----------------------------------------------------------|
-| `&`      | Bitwise AND                                | `5 & 3`               | `1`      | `5` in binary is `101`, `3` in binary is `011`. Bitwise AND gives `001` which is `1` in decimal. |
-| `\|`     | Bitwise OR                                 | `5 \| 3`              | `7`      | `5` in binary is `101`, `3` in binary is `011`. Bitwise OR gives `111` which is `7` in decimal. |
-| `^`      | Bitwise XOR                                | `5 ^ 3`               | `6`      | `5` in binary is `101`, `3` in binary is `011`. Bitwise XOR gives `110` which is `6` in decimal. |
+| `&`      | Bitwise AND                                | `5 & 3`               | `1`      | 5 in binary is `101`, 3 in binary is `011`. Bitwise AND gives `001` which is 1 in decimal. |
+| `\|`     | Bitwise OR                                 | `5 \| 3`              | `7`      | 5 in binary is `101`, 3 in binary is `011`. Bitwise OR gives `111` which is 7 in decimal. |
+| `^`      | Bitwise XOR                                | `5 ^ 3`               | `6`      | 5 in binary is `101`, 3 in binary is `011`. Bitwise XOR gives `110` which is 6 in decimal. |
 | `~`      | Bitwise NOT                                | `~5`                  | `-6`     | Bitwise NOT inverts the bits of the number and gives the two's complement of the number minus one. For example, `~5` inverts `101` to `010`, which is `-6` in two's complement form. |
-| `<<`     | Left shift                                 | `5 << 1`              | `10`     | Left shift moves the bits to the left by the specified number of positions. `5` in binary `101` becomes `1010` which is `10` in decimal. |
-| `>>`     | Right shift                                | `5 >> 1`              | `2`      | Right shift moves the bits to the right by the specified number of positions. `5` in binary `101` becomes `10` which is `2` in decimal. |
+| `<<`     | Left shift                                 | `5 << 1`              | `10`     | Left shift moves the bits to the left by the specified number of positions. 5 in binary `101` becomes `1010` which is 10 in decimal. |
+| `>>`     | Right shift                                | `5 >> 1`              | `2`      | Right shift moves the bits to the right by the specified number of positions. 5 in binary `101` becomes `10` which is 2 in decimal. |
 
 
