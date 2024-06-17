@@ -139,7 +139,7 @@ greet("Bob")
 
 ## 7) Integrated Development Environment (IDE) 
 IDE is an application/platform/software that helps you write and run your Python programs more easily. It provides tools like a code editor, where you write your code, and features for running, testing, and debugging your programs. Below are the top five commonly used IDEs (Integrated Development Environments) for Python:
-* Jupyter Notebook
+* Jupyter Notebook / Google Colab
 * Visual Studio Code
 * PyCharm
 * SPYDER
