@@ -148,4 +148,5 @@ IDE is a program that helps you write and run your Python code more easily. It p
 * Ctrl/Cmd + M M: Convert the current cell from code to text (markdown)
 * Ctrl/Cmd + M Y: Change the current cell from text to code
 * Ctrl/Cmd + M H: Show keyboard shortcuts
+* Ctrl/Cmd + L : Comment or Uncomment code line(s)
 
