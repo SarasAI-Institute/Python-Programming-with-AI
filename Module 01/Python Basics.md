@@ -88,7 +88,9 @@ print(result)  # Outputs: 20
 ```
 ## 5) Comments in Python
 
-Comments in Python are text that are ignored by the interpreter when executing the program. They are used to annotate code, provide explanations, and make it easier for others (or your future self) to understand the purpose and functionality of the code. Comments start with the `#` symbol and can be placed on a separate line or at the end of a line of code.
+Comments in Python are text that are ignored when executing the program. 
+* They are used to annotate code, provide explanations, and make it easier for others (or your future self) to understand the purpose and functionality of the code.
+* Comments start with the `#` symbol and can be placed on a separate line or at the end of a line of code.
 
 Example:
 ```python
@@ -136,7 +138,7 @@ greet("Bob")
 ```
 
 ## 7) Integrated Development Environment (IDE) 
-IDE is a program that helps you write and run your Python code more easily. It provides tools like a code editor, where you write your code, and features for running, testing, and debugging your programs. Below are the top five commonly used IDEs (Integrated Development Environments) for Python:
+IDE is an application/platform/software that helps you write and run your Python programs more easily. It provides tools like a code editor, where you write your code, and features for running, testing, and debugging your programs. Below are the top five commonly used IDEs (Integrated Development Environments) for Python:
 * Jupyter Notebook
 * Visual Studio Code
 * PyCharm
