@@ -23,7 +23,9 @@ print(greet("Alice"))
 
 ## 2) What is a Program in Python
 
-A program in Python is a set of instructions written in Python code that tells the computer what tasks to perform. It can range from simple scripts to complex applications. Programs are composed of functions, variables, and control structures that work together to achieve specific tasks, such as calculating values, processing data, or interacting with users.
+A program in Python is a set of instructions written in Python code that tells the computer what tasks to perform. 
+* It can range from simple scripts to complex applications.
+* Programs are composed of functions, variables, and control structures that work together to achieve specific tasks, such as calculating values, processing data, or interacting with users.
 ```
 # Example of a simple program
 print("Hello, World!")
@@ -42,7 +44,9 @@ print(add(5, 7))
 
 ## 3) Keywords in Python
 
-Keywords are reserved words in Python that have special meanings and cannot be used as identifiers (such as variable names or function names). They play a crucial role in defining the syntax and structure of Python programs. Examples include `if`, `else`, `for`, `while`, `def`, `class`, `import`, and `True`, `False`, `None` which are used for conditional statements, loops, defining functions, and more.
+Keywords are reserved words in Python that have special meanings and cannot be used as identifiers (such as variable names or function names). 
+* They play a crucial role in defining the syntax and structure of Python programs.
+* Examples include `if`, `else`, `for`, `while`, `def`, `class`, `import`, and `True`, `False`, `None` which are used for conditional statements, loops, defining functions, and more.
 
 ```
 # Using the if keyword
@@ -62,7 +66,9 @@ my_function()
 
 ## 4) Session or Workspace
 
-A session or workspace refers to the environment where Python code is executed and where variables and data reside during program execution. It includes memory space, imported modules, and the current state of variables. In interactive environments like Google Colab or Jupyter Notebooks, a session persists as long as the notebook is open, allowing for iterative code development and execution.
+A session or workspace refers to the environment where Python code is executed and where variables and data reside during program execution. 
+* It includes memory space, imported modules, and the current state of variables.
+* In interactive environments like Google Colab or Jupyter Notebooks, a session persists as long as the notebook is open, allowing for iterative code development and execution.
 ```
 # Using variables in a session
 x = 5
