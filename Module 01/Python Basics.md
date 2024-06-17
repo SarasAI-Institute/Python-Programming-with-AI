@@ -26,7 +26,8 @@ print(greet("Alice"))
 A program in Python is a set of instructions written in Python code that tells the computer what tasks to perform. 
 * It can range from simple scripts to complex applications.
 * Programs are composed of functions, variables, and control structures that work together to achieve specific tasks, such as calculating values, processing data, or interacting with users.
-```
+
+```python
 # Example of a simple program
 print("Hello, World!")
 
@@ -48,7 +49,7 @@ Keywords are reserved words in Python that have special meanings and cannot be u
 * They play a crucial role in defining the syntax and structure of Python programs.
 * Examples include `if`, `else`, `for`, `while`, `def`, `class`, `import`, and `True`, `False`, `None` which are used for conditional statements, loops, defining functions, and more.
 
-```
+```python
 # Using the if keyword
 if True:
     print("This is true")
@@ -69,7 +70,8 @@ my_function()
 A session or workspace refers to the environment where Python code is executed and where variables and data reside during program execution. 
 * It includes memory space, imported modules, and the current state of variables.
 * In interactive environments like Google Colab or Jupyter Notebooks, a session persists as long as the notebook is open, allowing for iterative code development and execution.
-```
+
+```python
 # Using variables in a session
 x = 5
 y = 3
@@ -114,7 +116,8 @@ print(factorial(5))  # Outputs: 120
 
 ## 6) Execution Flow of a Python Program
 When you run a Python program, Python reads and executes your code line by line. It follows the instructions in the order they are written unless it comes across conditions or loops that change the flow.
-```
+
+```python
 # Sequential execution
 print("First line")
 print("Second line")
