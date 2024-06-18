@@ -1,6 +1,5 @@
 
-
-![Alt text](https://github.com/gauravleo40/Python-Programming-Course/blob/main/Module%2001/DTree%2002.PNG?raw=true)?raw=true "Decision Tree")
+# Code example
 
 ```python
 #---Example 01---
@@ -19,3 +18,8 @@ else :
 for i in range(10):
     print(i)
 ```
+
+# Understanding important components in a Python Program
+![Alt text](https://github.com/gauravleo40/Python-Programming-Course/assets/64793936/5a160ee6-6e24-4063-9900-03ab27dfe711)
+
+
