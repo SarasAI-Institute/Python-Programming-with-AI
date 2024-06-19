@@ -1,26 +1,34 @@
 # Understanding Compiler and Interpreter
-
 - **Compiler:**
   - Think of it as a translator that converts the whole book (program) into another language (machine code) before anyone can read it (run it).
   - You have to fix all mistakes in the book before you can start reading it.
   - Once translated, reading (execution) is very fast.
+  - Examples of compiler-based languages:
+    - **C/C++:** Programs are compiled to machine code which the computer's hardware can execute directly.
+    - **Java:** Programs are compiled to bytecode, which is then executed by the Java Virtual Machine (JVM), combining some aspects of both compilation and interpretation.
 
 - **Interpreter:**
   - Think of it as a translator who reads and translates a book for you line-by-line.
   - You can start understanding the book immediately, but if there’s a mistake, you’ll stop as soon as it’s found.
   - Each line takes a little time to translate before you understand it.
+  - Examples of interpreter-based languages:
+    - **Python:** Each line of code is executed by the Python interpreter, making it easy to test and debug.
+    - **JavaScript:** Commonly used in web development, JavaScript is executed by the browser's interpreter as the web page loads.
+    - **Ruby:** Known for its ease of use and readability, Ruby code is executed by the Ruby interpreter.
 
-# Differences Between a Compiler and an Interpreter
+
+## Differences Between a Compiler and an Interpreter
 
 | Feature                   | Compiler                                                                                   | Interpreter                                                                                   |
 |---------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **Translation**           | Translates the entire program into machine code at once                                   | Translates and executes the program line-by-line                                           |
-| **Execution**             | Executes the program after the entire code is compiled                                    | Executes each line of the program immediately after translating it                         |
-| **Error Handling**        | Stops compilation if there is an error and no part of the program is executed             | Stops execution at the point of error, but lines before the error are executed              |
-| **Output**                | Generates an executable file                                                              | Does not generate an executable file                                                       |
-| **Speed**                 | Generally faster execution after compilation                                              | Slower execution since each line is translated on the fly                                  |
-| **Development**           | Requires fixing all errors before the program can run                                     | Easier to debug since errors can be spotted and fixed as they occur                        |
-| **Use Cases**             | Commonly used for applications where performance is critical                              | Often used in scripting and situations where quick testing and debugging are needed        |
+| **Translation**           | Translates the entire program into machine code at once                                     | Translates and executes the program line-by-line                                             |
+| **Execution**             | Executes the program after the entire code is compiled                                      | Executes each line of the program immediately after translating it                           |
+| **Error Handling**        | Stops compilation if there is an error and no part of the program is executed               | Stops execution at the point of error, but lines before the error are executed               |
+| **Output**                | Generates an executable file                                                                | Does not generate an executable file                                                         |
+| **Speed**                 | Generally faster execution after compilation                                                | Slower execution since each line is translated on the fly                                    |
+| **Development**           | Requires fixing all errors before the program can run                                       | Easier to debug since errors can be spotted and fixed as they occur                          |
+| **Use Cases**             | Commonly used for applications where performance is critical                                | Often used in scripting and situations where quick testing and debugging are needed          |
+| **Examples of Languages** | C, C++, Java (compiled to bytecode, then interpreted by JVM)                                | Python, JavaScript, Ruby                                                                     |
 
 
 # Compiler vs Interpreter: Handling Errors
