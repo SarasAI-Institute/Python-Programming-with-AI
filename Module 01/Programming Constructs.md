@@ -1,5 +1,5 @@
 
-# Code example
+# Python Code example
 
 ```python
 #---Example 01---
