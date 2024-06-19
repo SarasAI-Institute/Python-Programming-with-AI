@@ -14,17 +14,17 @@
 
 | Feature                   | Compiler                                                                                   | Interpreter                                                                                   |
 |---------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **Translation**           | - Translates the entire program into machine code at once                                   | - Translates and executes the program line-by-line                                           |
-| **Execution**             | - Executes the program after the entire code is compiled                                    | - Executes each line of the program immediately after translating it                         |
-| **Error Handling**        | - Stops compilation if there is an error and no part of the program is executed             | - Stops execution at the point of error, but lines before the error are executed              |
-| **Output**                | - Generates an executable file                                                              | - Does not generate an executable file                                                       |
-| **Speed**                 | - Generally faster execution after compilation                                              | - Slower execution since each line is translated on the fly                                  |
-| **Development**           | - Requires fixing all errors before the program can run                                     | - Easier to debug since errors can be spotted and fixed as they occur                        |
-| **Use Cases**             | - Commonly used for applications where performance is critical                              | - Often used in scripting and situations where quick testing and debugging are needed        |
+| **Translation**           | Translates the entire program into machine code at once                                   | Translates and executes the program line-by-line                                           |
+| **Execution**             | Executes the program after the entire code is compiled                                    | Executes each line of the program immediately after translating it                         |
+| **Error Handling**        | Stops compilation if there is an error and no part of the program is executed             | Stops execution at the point of error, but lines before the error are executed              |
+| **Output**                | Generates an executable file                                                              | Does not generate an executable file                                                       |
+| **Speed**                 | Generally faster execution after compilation                                              | Slower execution since each line is translated on the fly                                  |
+| **Development**           | Requires fixing all errors before the program can run                                     | Easier to debug since errors can be spotted and fixed as they occur                        |
+| **Use Cases**             | Commonly used for applications where performance is critical                              | Often used in scripting and situations where quick testing and debugging are needed        |
+
 
 # Compiler vs Interpreter: Handling Errors
-
-This document explains the difference between how a compiler and an interpreter process code, particularly when errors are encountered. It includes visual representations to help illustrate these differences.
+This section explains the difference between how a compiler and an interpreter process code, particularly when errors are encountered. It includes visual representations to help illustrate these differences.
 
 ## Example Code
 Here's a simple Python example with an intentional error:
