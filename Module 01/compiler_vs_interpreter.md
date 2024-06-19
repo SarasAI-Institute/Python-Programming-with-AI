@@ -1,4 +1,5 @@
 # Understanding Compiler and Interpreter
+ **Compiler** and **Interpreter** are both types of software programs that translate the user written code into a machine code that a computer's hardware can understand and execute.
 - **Compiler:**
   - Think of it as a translator that converts the whole book (program) into another language (machine code) before anyone can read it (run it).
   - You have to fix all mistakes in the book before you can start reading it.
