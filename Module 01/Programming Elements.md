@@ -26,3 +26,14 @@ for i in range(10):
 ![Alt text](https://github.com/gauravleo40/Python-Programming-Course/assets/64793936/5a160ee6-6e24-4063-9900-03ab27dfe711)
 
 
+# Input and Output
+* text
+  
+![Alt text](https://github.com/gauravleo40/Python-Programming-Course/assets/64793936/d4891dd1-30d7-4e8e-b037-bbe7d3346e74)
+
+# Log - to display Errors or Warnings 
+* text
+  
+![Alt text](https://github.com/gauravleo40/Python-Programming-Course/assets/64793936/ef82a21a-9b64-4ac5-8889-b019abf1cfdf)
+
+
