@@ -115,9 +115,9 @@ ZeroDivisionError: division by zero
 
 # Interpreter Flowchart
 ```python
-+-----------------+       +-------------------+
-|   Source Code   |------>|   Interpreter     |
-+-----------------+       +-------------------+
++-----------------+            +-------------------+
+|   Source Code   |--------->  |   Interpreter     |
++-----------------+            +-------------------+
                                           |
                                           v
                                +-------------------+
@@ -149,10 +149,9 @@ ZeroDivisionError: division by zero
 ```python
 +----------------------------------------+       +-------------------+
 |print("Hello, World!")                  |------>|   Execute Line 1  |
-|print(1 / 0)                            |       |                   |
-|print("This line will not be executed") |       +-------------------+
-                                                           |
-+----------------------------------------+                 v
+|print(1 / 0)                            |       +-------------------+
+|print("This line will not be executed") |                |
++----------------------------------------+                v
                                                  +-------------------+
                                                  | Output Line 1:    |
                                                  | "Hello, World!"   |
