@@ -35,8 +35,12 @@ for i in range(10):
 ![Alt text](https://github.com/gauravleo40/Python-Programming-Course/assets/64793936/ab7dc731-e9d2-4731-8b74-0d2426e20ced)
 
 ---
-# Log - to display Errors or Warnings 
-* text
+# Code Errors 
+* **Real-time Error Detection:** Python IDEs like Google Colab detect syntax errors and potential issues as you write or execute code
+* **Error Highlighting:** They visually mark problematic lines with indicators like red underlines
+* **Error Messages:** Output consoles or logs detail the error type (e.g., SyntaxError, NameError) and pinpoint the error location
+* **Importance of Logs:** Paying attention helps quickly identify and fix errors, enhancing code quality and preventing runtime issues
+* **Learning Tool:** Understanding error messages improves coding skills and promotes best practices in Python development
 
 ```python
 #---Example 03---
