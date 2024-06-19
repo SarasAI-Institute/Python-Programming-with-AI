@@ -86,14 +86,12 @@ Compilation failed. No executable produced.
 ## Compiler Visualization
 
 ```
-+-----------------+       +---------------+       +-------------------------+
-|print("Hello,    |------>|   Compiler    |------>|Error: Division by zero  |
-|World!")         |       |               |       |at line 2                |
-|print(1 / 0)     |       +---------------+       +-------------------------+
-|print("This line |                               
-|will not be      |                               
-|executed")       |                               
-+-----------------+
++-----------------------------------------+       +---------------+       +-------------------------+
+|print("Hello, World!")                   |------>|   Compiler    |------>|Error: Division by zero  |
+|print(1 / 0)                             |       |               |       |at line 2                |
+|print("This line will not be executed")  |       +---------------+       +-------------------------+
++-----------------------------------------+
+
 ```
 
 # Interpreter
@@ -149,32 +147,32 @@ ZeroDivisionError: division by zero
 
 # Interpreter Visualization
 ```python
-+-----------------+       +-------------------+
-|print("Hello,    |------>| Execute Line 1    |
-|World!")         |       |                   |
-|print(1 / 0)     |       +-------------------+
-|print("This line |                |
-|will not be      |                v
-|executed")       |       +-------------------+
-+-----------------+       | Output Line 1:    |
-                          | "Hello, World!"   |
-                          +-------------------+
-                                   |
-                                   v
-                          +-------------------+
-                          | Execute Line 2    |
-                          +-------------------+
-                                   |
-                                   v
-                          +-------------------+
-                          | Error: Division   |
-                          | by zero at line 2 |
-                          +-------------------+
-                                   |
-                                   v
-                          +-------------------+
-                          | Stop Execution    |
-                          +-------------------+
++----------------------------------------+       +-------------------+
+|print("Hello, World!")                  |------>|   Execute Line 1  |
+|print(1 / 0)                            |       |                   |
+|print("This line will not be executed") |       +-------------------+
+                                                           |
++----------------------------------------+                 v
+                                                 +-------------------+
+                                                 | Output Line 1:    |
+                                                 | "Hello, World!"   |
+                                                 +-------------------+
+                                                          |
+                                                          v
+                                                 +-------------------+
+                                                 | Execute Line 2    |
+                                                 +-------------------+
+                                                          |
+                                                          v
+                                                 +-------------------+
+                                                 | Error: Division   |
+                                                 | by zero at line 2 |
+                                                 +-------------------+
+                                                          |
+                                                          v
+                                                 +-------------------+
+                                                 | Stop Execution    |
+                                                 +-------------------+
 ```
 
 # Summary
