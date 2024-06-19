@@ -62,24 +62,24 @@ Compilation failed. No executable produced.
 
 ## Compiler Flowchart
 ```
-+-----------------+       +---------------+       +-------------------------+
-|   Source Code   |------>|   Compiler    |------>|   Error (if any)        |
-+-----------------+       +---------------+       +-------------------------+
-                                          |
-                                          v
++-----------------+              +---------------+       +-------------------------+
+|   Source Code   |------------->|   Compiler    |------>|       Error (if any)    |
++-----------------+              +---------------+       +-------------------------+
+                                         |
+                                         v
                                  +---------------+
                                  |   Executable  |
                                  +---------------+
-                                          |
-                                          v
+                                         |
+                                         v
                                  +---------------+
                                  |   Execution   |
                                  +---------------+
-                                          |
-                                          v
+                                         |
+                                         v
                                +-------------------+
-                               | Program Output    |
-                               | (if no errors)    |
+                               |   Program Output  |
+                               |   (if no errors)  |
                                +-------------------+
 ```
 
@@ -88,8 +88,8 @@ Compilation failed. No executable produced.
 ```
 +-----------------------------------------+       +---------------+       +-------------------------+
 |print("Hello, World!")                   |------>|   Compiler    |------>|Error: Division by zero  |
-|print(1 / 0)                             |       |               |       |at line 2                |
-|print("This line will not be executed")  |       +---------------+       +-------------------------+
+|print(1 / 0)                             |       +---------------+       |at line 2                |
+|print("This line will not be executed")  |                               +-------------------------+
 +-----------------------------------------+
 
 ```
@@ -116,32 +116,32 @@ ZeroDivisionError: division by zero
 # Interpreter Flowchart
 ```python
 +-----------------+            +-------------------+
-|   Source Code   |--------->  |   Interpreter     |
+|   Source Code   |--------->  |    Interpreter    |
 +-----------------+            +-------------------+
                                           |
                                           v
                                +-------------------+
-                               | Execute Line 1    |
+                               |  Execute Line 1   |
                                +-------------------+
                                           |
                                           v
                                +-------------------+
-                               | Output Line 1     |
+                               |   Output Line 1   |
                                +-------------------+
                                           |
                                           v
                                +-------------------+
-                               | Execute Line 2    |
+                               |   Execute Line 2  |
                                +-------------------+
                                           |
                                           v
                                +-------------------+
-                               | Error (if any)    |
+                               |   Error (if any)  |
                                +-------------------+
                                           |
                                           v
                                +-------------------+
-                               | Stop Execution    |
+                               |   Stop Execution  |
                                +-------------------+
 ```
 
@@ -159,7 +159,7 @@ ZeroDivisionError: division by zero
                                                           |
                                                           v
                                                  +-------------------+
-                                                 | Execute Line 2    |
+                                                 |   Execute Line 2  |
                                                  +-------------------+
                                                           |
                                                           v
@@ -170,7 +170,7 @@ ZeroDivisionError: division by zero
                                                           |
                                                           v
                                                  +-------------------+
-                                                 | Stop Execution    |
+                                                 |   Stop Execution  |
                                                  +-------------------+
 ```
 
