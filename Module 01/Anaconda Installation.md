@@ -1,4 +1,4 @@
-# Setting Up Jupyter Notebook with Anaconda
+# Setting Up Jupyter Notebook and SPYDER IDEs with Anaconda
 
 ## Download and Install Anaconda
 1. Visit the [Anaconda official website](https://www.anaconda.com).
@@ -16,17 +16,24 @@
 - **macOS**: Open Finder, go to the Applications folder, find Anaconda Navigator, and double-click to open it.
 - **Linux**: Open a terminal and type `anaconda-navigator` to start Anaconda Navigator.
 
-## Launch Jupyter Notebook
-1. In Anaconda Navigator, you will see several application tiles.
-2. Find the Jupyter Notebook tile and click the "Launch" button.
-3. This will open Jupyter Notebook in your default web browser.
+![Alt text](https://github.com/gauravleo40/Python-Programming-Course/assets/64793936/a077a7b7-b8be-4880-81c9-392efb01f1a3)
 
-## Using Jupyter Notebook via Command Line (Alternative)
+
+## Launch Jupyter Notebook and SPYDER
+1. In Anaconda Navigator, you will see several application tiles.
+2. Find the Jupyter Notebook tile and click the "Launch" button. This will open Jupyter Notebook in your default web browser.
+2. Once SPYDER is launched, it opens up as a separate application
+
+## Launching Jupyter Notebook via Command Line (Alternative)
 1. **Windows**: Open the Anaconda Prompt from the Start menu.
 2. **macOS/Linux**: Open a terminal.
-3. In the Anaconda Prompt or terminal, type the following command and press Enter:
+3. To launch **Jupyter Notebook** type the following command and press Enter:
    ```sh
    jupyter notebook
+   ```
+4. To launch **SPYDER IDE** type the following command and press Enter:
+   ```sh
+   SPYDER
    ```
 
 ## Links to official documentation
