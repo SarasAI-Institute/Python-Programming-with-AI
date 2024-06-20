@@ -21,10 +21,10 @@
 
 ## Launch Jupyter Notebook and SPYDER
 1. In Anaconda Navigator, you will see several application tiles.
-2. Find the Jupyter Notebook tile and click the "Launch" button. This will open Jupyter Notebook in your default web browser.
-2. Once SPYDER is launched, it opens up as a separate application
+2. To launch Jupyter Notebook, find the Jupyter Notebook tile and click the "Launch" button. This will open Jupyter Notebook in your default web browser.
+3. To launch Spyder, find the Spyder tile and click the "Launch" button. Spyder will open up as a separate application.
 
-## Launching Jupyter Notebook via Command Line (Alternative)
+## Launching via Command Line (Alternative)
 1. **Windows**: Open the Anaconda Prompt from the Start menu.
 2. **macOS/Linux**: Open a terminal.
 3. To launch **Jupyter Notebook** type the following command and press Enter:
