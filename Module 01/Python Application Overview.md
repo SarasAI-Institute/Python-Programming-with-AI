@@ -1,6 +1,8 @@
+## Examples of Python's Applications in Data Science, Data Analytics, ML, and AI
+
 ### Before Running any Codes
 
-**Please run the following commands in your IDE (preferably in separate cells) and restart the session if necessary:**
+>**Please run the following commands in your IDE (preferably in separate cells) and restart the session if necessary:**
 
 ```python
 !pip install pandas-profiling
@@ -15,7 +17,7 @@
 !pip install opencv-python
 ```
 
-## 1. Python's Applications in Data Science, Data Analytics, ML, and AI
+---
 
 ### Data Science
 
