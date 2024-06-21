@@ -1,4 +1,19 @@
-# Python Programming Course for Absolute Beginners
+### Before Running any Codes
+
+**Please run the following commands in your IDE (preferably in separate cells) and restart the session if necessary:**
+
+```python
+!pip install pandas-profiling
+```
+```python
+!pip install spacy
+```
+```python
+!python -m spacy download en_core_web_sm
+```
+```python
+!pip install opencv-python
+```
 
 ## 1. Python's Applications in Data Science, Data Analytics, ML, and AI
 
