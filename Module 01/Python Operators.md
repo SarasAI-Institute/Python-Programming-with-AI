@@ -1,6 +1,6 @@
 
 ## **Arithmetic Operators**
-* Arithmetic are fundamental in numerical computations
+* Arithmetic operators are fundamental in numerical computations
 * They are used extensively in mathematical calculations, ranging from basic arithmetic in everyday calculations to complex formulas in scientific and engineering applications
 
 | Symbol | Description                    | Code Example     | Code Output |
