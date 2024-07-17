@@ -14,6 +14,11 @@ Data structures are essential for organizing and storing data efficiently. Here 
 3. **Data Organization**: They provide a way to structure data logically, making it easier to understand and work with. For instance, a list can be used to store a sequence of items, while a dictionary can be used to store key-value pairs.
 4. **Reusability and Modularity**: Proper use of data structures allows for code reusability and modularity. Functions and methods can be written to operate on these structures, promoting cleaner and more maintainable code.
 
+## Python's Builtin Data Structures
+
+![Alt text](https://github.com/user-attachments/assets/1aa4703c-a99c-4b31-b77b-aa77960735d0)
+
+
 ## How each Builtin Data Structure offers unique properties
 
 - **Lists**: Easy to use, versatile for any data type, and supports extensive operations.
