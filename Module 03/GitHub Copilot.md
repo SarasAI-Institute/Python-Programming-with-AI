@@ -122,40 +122,20 @@ By following these steps, you can effectively use GitHub Copilot to help generat
 
 ### Beginner-Friendly Prompts
 
-**Part 1: Prompts to Reinforce Week 1 and Week 2 Topics**
-
+**Part 1: Prompts to Reinforce Module 1 and 2 Topics**
 1. **Prompt:** `# Create a Python program to generate a list of numbers from 1 to 10`
-   - *Focus:* Working with basic loops and lists.
-
 2. **Prompt:** `# Write a program that prints each element of a list in uppercase`
-   - *Focus:* Using loops and string methods.
-
 3. **Prompt:** `# Develop a program that generates a random number between 1 and 50 and prints it`
-   - *Focus:* Using the random module to generate random numbers.
-
 4. **Prompt:** `# Create a list of numbers from 1 to 10 and print only the even numbers`
-   - *Focus:* Using list comprehensions and basic conditionals.
-
 5. **Prompt:** `# Write a program that iterates through a list of numbers and prints if each number is odd or even`
-   - *Focus:* Applying conditionals and loops.
 
-**Part 2: Prompts to Explore Week 3 Topics**
-
+**Part 2: Prompts to Explore Module 3 Topics**
 1. **Prompt:** `# Generate a list of tuples where each tuple contains a number and its square from 1 to 5`
-   - *Focus:* Understanding tuples and list comprehensions.
-
 2. **Prompt:** `# Write a program that simulates rolling a dice and prints the result using the random module`
-   - *Focus:* Applying the random module to generate outcomes.
-
 3. **Prompt:** `# Use list comprehension to create a list of strings that describe each number from 1 to 5 as 'even' or 'odd'`
-   - *Focus:* Combining list comprehensions with conditional logic.
-
 4. **Prompt:** `# Create a list of numbers from 1 to 5 and print each number multiplied by 2`
-   - *Focus:* Using loops and basic arithmetic operations.
-
 5. **Prompt:** `# Write a program to create a list of numbers from 1 to 10 and print each number squared`
-   - *Focus:* Using list comprehensions and mathematical operations.
-
+   
 ### Additional Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
